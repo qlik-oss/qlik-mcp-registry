@@ -1,0 +1,26 @@
+{
+  "server": {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+    "name": "io.github.github/github-mcp-server",
+    "description": "GitHub MCP Server v0.20.2 - Manage repos, issues, PRs, and workflows.",
+    "repository": {
+      "url": "https://github.com/github/github-mcp-server",
+      "source": "github"
+    },
+    "version": "0.20.2",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.githubcopilot.com/mcp/"
+      }
+    ]
+  },
+  "_meta": {
+    "io.modelcontextprotocol.registry/official": {
+      "status": "active",
+      "publishedAt": "2025-11-10T09:36:19.127074Z",
+      "updatedAt": "2025-11-10T09:36:19.127074Z",
+      "isLatest": true
+    }
+  }
+}
