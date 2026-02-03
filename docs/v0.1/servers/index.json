@@ -47,9 +47,59 @@
           "isLatest": true
         }
       }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+        "name": "io.launchdarkly/mcp-server",
+        "description": "LaunchDarkly MCP Server v1.0.0 - Interact with LaunchDarkly feature flags",
+        "repository": {
+          "url": "https://github.com/launchdarkly/mcp-server",
+          "source": "github"
+        },
+        "version": "1.0.0",
+        "configuration": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "--package",
+            "@launchdarkly/mcp-server@latest",
+            "--",
+            "mcp",
+            "start",
+            "--api-key",
+            "${input:api_key}",
+            "--server-url",
+            "${input:server_url}"
+          ]
+        },
+        "inputs": [
+          {
+            "id": "api_key",
+            "type": "promptString",
+            "description": "LaunchDarkly API Key",
+            "password": true
+          },
+          {
+            "id": "server_url",
+            "type": "promptString",
+            "description": "LaunchDarkly Server URL",
+            "default": "https://app.launchdarkly.com"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "publishedAt": "2026-02-03T00:00:00.000000Z",
+          "updatedAt": "2026-02-03T00:00:00.000000Z",
+          "isLatest": true
+        }
+      }
     }
   ],
   "metadata": {
-    "count": 2
+    "count": 3
   }
 }
