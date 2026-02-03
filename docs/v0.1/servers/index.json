@@ -47,9 +47,35 @@
           "isLatest": true
         }
       }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+        "name": "io.qlik.internal/qlik-design-system",
+        "description": "Qlik Design System MCP Server v0.1.0 - Query Sprout design tokens, guidelines, and components for design-consistent code generation.",
+        "version": "0.1.0",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "http://127.0.0.1:8765/mcp"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "publishedAt": "2026-02-03T00:00:00.000000Z",
+          "updatedAt": "2026-02-03T00:00:00.000000Z",
+          "isLatest": true,
+          "owner": "sizhao.liu@qlik.com",
+          "useCase": "Enables Copilot to query Qlik Sprout design tokens, guidelines, and components for design-consistent code generation",
+          "dependencies": "Python 3.12+, FastMCP, local design system files",
+          "dataAccess": "Local design tokens (CSV) and guidelines (MDX) - no PII or external services"
+        }
+      }
     }
   ],
   "metadata": {
-    "count": 2
+    "count": 3
   }
 }
