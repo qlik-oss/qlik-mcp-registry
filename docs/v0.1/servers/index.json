@@ -47,9 +47,31 @@
           "isLatest": true
         }
       }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+        "name": "io.qlik/qlik-mcp-server",
+        "description": "Qlik MCP Server v1.0.0 - Internal productivity tool for Qlik employees. Requires tenant URL configuration.",
+        "version": "1.0.0",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "{tenant_url}/api/ai/mcp"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "publishedAt": "2026-02-03T00:00:00.000000Z",
+          "updatedAt": "2026-02-03T00:00:00.000000Z",
+          "isLatest": true
+        }
+      }
     }
   ],
   "metadata": {
-    "count": 2
+    "count": 3
   }
 }
