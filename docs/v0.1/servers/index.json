@@ -57,14 +57,7 @@
         "remotes": [
           {
             "type": "streamable-http",
-            "url": "${input:tenant_url}/api/ai/mcp"
-          }
-        ],
-        "inputs": [
-          {
-            "id": "tenant_url",
-            "type": "promptString",
-            "description": "Qlik Cloud Tenant URL (e.g., https://your-tenant.us.qlikcloud.com)"
+            "url": "{tenant_url}/api/ai/mcp"
           }
         ]
       },
