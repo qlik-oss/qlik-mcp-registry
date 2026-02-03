@@ -1,0 +1,29 @@
+{
+    "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+        "name": "io.qlik/qlik-mcp-server",
+        "description": "Qlik MCP Server v1.0.0 - Internal productivity tool for Qlik employees. Requires tenant URL configuration.",
+        "version": "1.0.0",
+        "remotes": [
+            {
+                "type": "streamable-http",
+                "url": "${input:tenant_url}/api/ai/mcp"
+            }
+        ],
+        "inputs": [
+            {
+                "id": "tenant_url",
+                "type": "promptString",
+                "description": "Qlik Cloud Tenant URL (e.g., https://your-tenant.us.qlikcloud.com)"
+            }
+        ]
+    },
+    "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+            "status": "active",
+            "publishedAt": "2026-02-03T00:00:00.000000Z",
+            "updatedAt": "2026-02-03T00:00:00.000000Z",
+            "isLatest": true
+        }
+    }
+}
