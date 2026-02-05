@@ -1,0 +1,9 @@
+{
+    "name": "qlik-mcp-registry",
+    "version": "0.1.0",
+    "description": "Qlik MCP Server Registry",
+    "private": true,
+    "scripts": {
+        "build": "node scripts/build-registry.js"
+    }
+}

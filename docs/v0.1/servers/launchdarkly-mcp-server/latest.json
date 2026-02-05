@@ -36,10 +36,28 @@
   },
   "_meta": {
     "io.modelcontextprotocol.registry/official": {
+      "slug": "launchdarkly-mcp-server",
       "status": "active",
       "publishedAt": "2026-02-03T00:00:00.000000Z",
       "updatedAt": "2026-02-03T00:00:00.000000Z",
       "isLatest": true
+    },
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "github": {
+        "displayName": "LaunchDarkly",
+        "homepageUrl": "https://launchdarkly.com",
+        "license": "Apache-2.0",
+        "ownerAvatarUrl": "https://images.prismic.io/launchdarkly-marketingsite/1b2e7e44-95c6-43e4-b952-addf093f9c93_launchdarkly-logos.png?auto=compress,format",
+        "preferredImage": "https://images.prismic.io/launchdarkly-marketingsite/1b2e7e44-95c6-43e4-b952-addf093f9c93_launchdarkly-logos.png?auto=compress,format",
+        "primaryLanguage": "TypeScript",
+        "primaryLanguageColor": "#3178c6",
+        "topics": [
+          "launchdarkly",
+          "feature-flags",
+          "mcp",
+          "mcp-server"
+        ]
+      }
     }
   }
 }

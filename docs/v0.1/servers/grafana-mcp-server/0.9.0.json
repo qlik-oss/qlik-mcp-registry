@@ -17,10 +17,29 @@
   },
   "_meta": {
     "io.modelcontextprotocol.registry/official": {
+      "slug": "grafana-mcp-server",
       "status": "active",
       "publishedAt": "2026-02-05T00:00:00.000000Z",
       "updatedAt": "2026-02-05T00:00:00.000000Z",
       "isLatest": true
+    },
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "github": {
+        "displayName": "Grafana",
+        "homepageUrl": "https://grafana.com",
+        "license": "AGPL-3.0",
+        "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+        "preferredImage": "https://avatars.githubusercontent.com/u/7195757?v=4",
+        "primaryLanguage": "Python",
+        "primaryLanguageColor": "#3572A5",
+        "topics": [
+          "grafana",
+          "mcp",
+          "mcp-server",
+          "observability",
+          "monitoring"
+        ]
+      }
     }
   }
 }

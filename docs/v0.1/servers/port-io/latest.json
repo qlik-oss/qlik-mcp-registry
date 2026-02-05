@@ -1,0 +1,49 @@
+{
+  "server": {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+    "name": "io.port/Port",
+    "description": "Port.io mcp server",
+    "repository": {
+      "url": "https://github.com/port-labs/remote-mcp-server",
+      "source": "github"
+    },
+    "version": "1.0.2",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.port.io/v1"
+      },
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.us.port.io/v1"
+      }
+    ]
+  },
+  "_meta": {
+    "io.modelcontextprotocol.registry/official": {
+      "slug": "port-io",
+      "status": "active",
+      "publishedAt": "2026-01-12T08:41:09Z",
+      "updatedAt": "2026-02-05T12:13:19Z",
+      "isLatest": true
+    },
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "github": {
+        "displayName": "Port",
+        "homepageUrl": "https://www.port.io",
+        "license": "MIT",
+        "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/97434394?v=4",
+        "preferredImage": "https://avatars.githubusercontent.com/u/97434394?v=4",
+        "primaryLanguage": "TypeScript",
+        "primaryLanguageColor": "#3178c6",
+        "topics": [
+          "port",
+          "software-catalog",
+          "mcp",
+          "mcp-server",
+          "internal-developer-portal"
+        ]
+      }
+    }
+  }
+}

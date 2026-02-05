@@ -15,6 +15,7 @@
       },
       "_meta": {
         "io.modelcontextprotocol.registry/official": {
+          "slug": "qlik-test-internal",
           "status": "active",
           "publishedAt": "2026-01-13T00:00:00.000000Z",
           "updatedAt": "2026-01-13T00:00:00.000000Z",
@@ -60,10 +61,28 @@
       },
       "_meta": {
         "io.modelcontextprotocol.registry/official": {
+          "slug": "launchdarkly-mcp-server",
           "status": "active",
           "publishedAt": "2026-02-03T00:00:00.000000Z",
           "updatedAt": "2026-02-03T00:00:00.000000Z",
           "isLatest": true
+        },
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "github": {
+            "displayName": "LaunchDarkly",
+            "homepageUrl": "https://launchdarkly.com",
+            "license": "Apache-2.0",
+            "ownerAvatarUrl": "https://images.prismic.io/launchdarkly-marketingsite/1b2e7e44-95c6-43e4-b952-addf093f9c93_launchdarkly-logos.png?auto=compress,format",
+            "preferredImage": "https://images.prismic.io/launchdarkly-marketingsite/1b2e7e44-95c6-43e4-b952-addf093f9c93_launchdarkly-logos.png?auto=compress,format",
+            "primaryLanguage": "TypeScript",
+            "primaryLanguageColor": "#3178c6",
+            "topics": [
+              "launchdarkly",
+              "feature-flags",
+              "mcp",
+              "mcp-server"
+            ]
+          }
         }
       }
     },
@@ -86,15 +105,83 @@
       },
       "_meta": {
         "io.modelcontextprotocol.registry/official": {
+          "slug": "grafana-mcp-server",
           "status": "active",
           "publishedAt": "2026-02-05T00:00:00.000000Z",
           "updatedAt": "2026-02-05T00:00:00.000000Z",
           "isLatest": true
+        },
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "github": {
+            "displayName": "Grafana",
+            "homepageUrl": "https://grafana.com",
+            "license": "AGPL-3.0",
+            "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+            "preferredImage": "https://avatars.githubusercontent.com/u/7195757?v=4",
+            "primaryLanguage": "Python",
+            "primaryLanguageColor": "#3572A5",
+            "topics": [
+              "grafana",
+              "mcp",
+              "mcp-server",
+              "observability",
+              "monitoring"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+        "name": "io.port/Port",
+        "description": "Port.io mcp server",
+        "repository": {
+          "url": "https://github.com/port-labs/remote-mcp-server",
+          "source": "github"
+        },
+        "version": "1.0.2",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://mcp.port.io/v1"
+          },
+          {
+            "type": "streamable-http",
+            "url": "https://mcp.us.port.io/v1"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "slug": "port-io",
+          "status": "active",
+          "publishedAt": "2026-01-12T08:41:09Z",
+          "updatedAt": "2026-02-05T12:13:19Z",
+          "isLatest": true
+        },
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "github": {
+            "displayName": "Port",
+            "homepageUrl": "https://www.port.io",
+            "license": "MIT",
+            "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/97434394?v=4",
+            "preferredImage": "https://avatars.githubusercontent.com/u/97434394?v=4",
+            "primaryLanguage": "TypeScript",
+            "primaryLanguageColor": "#3178c6",
+            "topics": [
+              "port",
+              "software-catalog",
+              "mcp",
+              "mcp-server",
+              "internal-developer-portal"
+            ]
+          }
         }
       }
     }
   ],
   "metadata": {
-    "count": 3
+    "count": 4
   }
 }
