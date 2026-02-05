@@ -51,20 +51,41 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-        "name": "io.qlik/qlik-mcp-server",
-        "description": "Qlik MCP Server v1.0.0 - Internal productivity tool for Qlik employees. Requires tenant URL configuration.",
+        "name": "io.launchdarkly/mcp-server",
+        "description": "LaunchDarkly MCP Server v1.0.0 - Interact with LaunchDarkly feature flags",
+        "repository": {
+          "url": "https://github.com/launchdarkly/mcp-server",
+          "source": "github"
+        },
         "version": "1.0.0",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "${input:tenant_url}/api/ai/mcp"
-          }
-        ],
+        "configuration": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "--package",
+            "@launchdarkly/mcp-server@latest",
+            "--",
+            "mcp",
+            "start",
+            "--api-key",
+            "${input:api_key}",
+            "--server-url",
+            "${input:server_url}"
+          ]
+        },
         "inputs": [
           {
-            "id": "tenant_url",
+            "id": "api_key",
             "type": "promptString",
-            "description": "Qlik Cloud Tenant URL (e.g., https://your-tenant.us.qlikcloud.com)"
+            "description": "LaunchDarkly API Key",
+            "password": true
+          },
+          {
+            "id": "server_url",
+            "type": "promptString",
+            "description": "LaunchDarkly Server URL",
+            "default": "https://app.launchdarkly.com"
           }
         ]
       },
@@ -79,6 +100,6 @@
     }
   ],
   "metadata": {
-    "count": 3
+    "count": 4
   }
 }
