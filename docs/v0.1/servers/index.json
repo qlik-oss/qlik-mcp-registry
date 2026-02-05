@@ -32,34 +32,29 @@
           "source": "github"
         },
         "version": "1.0.0",
-        "configuration": {
-          "type": "stdio",
-          "command": "npx",
-          "args": [
-            "-y",
-            "--package",
-            "@launchdarkly/mcp-server@latest",
-            "--",
-            "mcp",
-            "start",
-            "--api-key",
-            "${input:api_key}",
-            "--server-url",
-            "${input:server_url}"
-          ]
-        },
-        "inputs": [
+        "packages": [
           {
-            "id": "api_key",
-            "type": "promptString",
-            "description": "LaunchDarkly API Key",
-            "password": true
-          },
-          {
-            "id": "server_url",
-            "type": "promptString",
-            "description": "LaunchDarkly Server URL",
-            "default": "https://app.launchdarkly.com"
+            "registryType": "npm",
+            "identifier": "@launchdarkly/mcp-server",
+            "version": "1.0.0",
+            "runtimeHint": "npx",
+            "transport": {
+              "type": "stdio"
+            },
+            "environmentVariables": [
+              {
+                "name": "LAUNCHDARKLY_API_KEY",
+                "description": "LaunchDarkly API Key",
+                "isRequired": true,
+                "isSecret": true
+              },
+              {
+                "name": "LAUNCHDARKLY_SERVER_URL",
+                "description": "LaunchDarkly Server URL (default: https://app.launchdarkly.com)",
+                "isRequired": false,
+                "isSecret": false
+              }
+            ]
           }
         ]
       },
