@@ -3,32 +3,6 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-        "name": "io.github.github/github-mcp-server",
-        "description": "GitHub MCP Server v0.20.2 - Manage repos, issues, PRs, and workflows.",
-        "repository": {
-          "url": "https://github.com/github/github-mcp-server",
-          "source": "github"
-        },
-        "version": "0.20.2",
-        "remotes": [
-          {
-            "type": "streamable-http",
-            "url": "https://api.githubcopilot.com/mcp/"
-          }
-        ]
-      },
-      "_meta": {
-        "io.modelcontextprotocol.registry/official": {
-          "status": "active",
-          "publishedAt": "2025-11-10T09:36:19.127074Z",
-          "updatedAt": "2025-11-10T09:36:19.127074Z",
-          "isLatest": true
-        }
-      }
-    },
-    {
-      "server": {
-        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
         "name": "io.qlik.internal/qlik-test-internal",
         "description": "Qlik Test Internal MCP Server v0.1.0",
         "version": "0.1.0",
@@ -51,7 +25,7 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-        "name": "io.launchdarkly/mcp-server",
+        "name": "io.launchdarkly/launchdarkly-mcp-server",
         "description": "LaunchDarkly MCP Server v1.0.0 - Interact with LaunchDarkly feature flags",
         "repository": {
           "url": "https://github.com/launchdarkly/mcp-server",
@@ -100,6 +74,6 @@
     }
   ],
   "metadata": {
-    "count": 4
+    "count": 2
   }
 }
