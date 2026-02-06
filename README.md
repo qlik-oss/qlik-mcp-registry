@@ -37,12 +37,31 @@ docs/
             └── {version}.json                  # /v0.1/servers/{serverName}/versions/{version}
 ```
 
-## Adding New Servers
+## Managing Servers
 
-1. Create a directory for the server: `docs/v0.1/servers/{serverName}/`
-2. Add version files: `{version}.json`
-3. Add a `latest.json` file pointing to the latest version
-4. Update `docs/v0.1/servers/index.json` to include the new server
+**`docs/v0.1/servers/index.json` is the single source of truth.** All individual server files are generated from it.
+
+### Adding or Updating Servers
+
+1. Edit `docs/v0.1/servers/index.json` to add or update a server entry
+2. Run the build script to generate individual server files:
+   ```bash
+   npm run build
+   ```
+3. Commit all changes (both `index.json` and generated files)
+
+The build script will:
+- Create/update version-specific files (e.g., `port-io/1.0.2.json`)
+- Create/update `latest.json` for servers marked with `isLatest: true`
+- Match entries to existing server directories automatically
+
+### Adding a New Server
+
+If adding a completely new server:
+1. Manually create the directory: `docs/v0.1/servers/{serverName}/`
+2. Add a placeholder version file (e.g., `1.0.0.json`)
+3. Add the entry to `index.json`
+4. Run `npm run build`
 
 ## Deployment
 
