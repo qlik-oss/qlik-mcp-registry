@@ -30,7 +30,7 @@
     },
     "io.modelcontextprotocol.registry/publisher-provided": {
       "github": {
-        "displayName": "Port",
+        "displayName": "Port.io MCP",
         "homepageUrl": "https://www.port.io",
         "license": "MIT",
         "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/97434394?v=4",
