@@ -2,6 +2,7 @@
   "server": {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
     "name": "io.launchdarkly/launchdarkly-mcp-server",
+    "displayName": "LaunchDarkly",
     "description": "LaunchDarkly MCP Server v1.0.0 - Interact with LaunchDarkly feature flags",
     "repository": {
       "url": "https://github.com/launchdarkly/mcp-server",
