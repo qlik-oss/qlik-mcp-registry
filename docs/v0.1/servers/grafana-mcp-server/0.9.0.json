@@ -1,7 +1,8 @@
 {
   "server": {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-    "name": "io.grafana/mcp-grafana",
+    "name": "io.grafana/grafana",
+    "displayName": "Grafana",
     "description": "Grafana MCP Server v0.9.0 - Access Grafana dashboards, datasources, alerting, OnCall, and the surrounding ecosystem via Model Context Protocol",
     "repository": {
       "url": "https://github.com/grafana/mcp-grafana",
