@@ -52,7 +52,12 @@
         "preferredImage": "https://images.prismic.io/launchdarkly-marketingsite/1b2e7e44-95c6-43e4-b952-addf093f9c93_launchdarkly-logos.png?auto=compress,format",
         "primaryLanguage": "TypeScript",
         "primaryLanguageColor": "#3178c6",
-        "topics": ["launchdarkly", "feature-flags", "mcp", "mcp-server"]
+        "topics": [
+          "launchdarkly",
+          "feature-flags",
+          "mcp",
+          "mcp-server"
+        ]
       }
     }
   }
