@@ -77,7 +77,12 @@
             "preferredImage": "https://images.prismic.io/launchdarkly-marketingsite/1b2e7e44-95c6-43e4-b952-addf093f9c93_launchdarkly-logos.png?auto=compress,format",
             "primaryLanguage": "TypeScript",
             "primaryLanguageColor": "#3178c6",
-            "topics": ["launchdarkly", "feature-flags", "mcp", "mcp-server"]
+            "topics": [
+              "launchdarkly",
+              "feature-flags",
+              "mcp",
+              "mcp-server"
+            ]
           }
         }
       }
@@ -284,9 +289,33 @@
           "dataAccess": "Local design tokens (CSV) and guidelines (MDX) - no PII or external services"
         }
       }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+        "name": "com.qlik/qlik-cloud-mcp",
+        "displayName": "Qlik Cloud MCP (QlikInternal US)",
+        "description": "Qlik Cloud MCP Server for QlikInternal US tenant - Access analytics apps, data products, datasets, and lineage",
+        "version": "0.1.0-preview",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://qlikinternal.us.qlikcloud.com/api/ai/mcp"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "slug": "qlik-cloud-mcp",
+          "status": "preview",
+          "publishedAt": "2026-02-09T00:00:00.000000Z",
+          "updatedAt": "2026-02-09T00:00:00.000000Z",
+          "isLatest": true
+        }
+      }
     }
   ],
   "metadata": {
-    "count": 7
+    "count": 8
   }
 }
