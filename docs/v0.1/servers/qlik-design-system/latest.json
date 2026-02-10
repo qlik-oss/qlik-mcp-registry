@@ -2,7 +2,6 @@
   "server": {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
     "name": "io.qlik.internal/qlik-design-system",
-    "displayName": "Qlik Design System MCP",
     "description": "Qlik Design System MCP Server v0.1.0 - Query Sprout design tokens, guidelines, and components for design-consistent code generation.",
     "version": "0.1.0",
     "remotes": [

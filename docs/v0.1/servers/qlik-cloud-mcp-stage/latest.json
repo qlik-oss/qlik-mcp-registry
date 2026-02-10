@@ -1,0 +1,23 @@
+{
+  "server": {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+    "name": "com.qlik/qlik-cloud-mcp-stage",
+    "description": "Qlik Cloud MCP Server for Stage tenant",
+    "version": "0.1.0-preview",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.us.qlik-stage.com/api/ai/mcp"
+      }
+    ]
+  },
+  "_meta": {
+    "io.modelcontextprotocol.registry/official": {
+      "slug": "qlik-cloud-mcp-stage",
+      "status": "preview",
+      "publishedAt": "2026-02-10T00:00:00.000000Z",
+      "updatedAt": "2026-02-10T00:00:00.000000Z",
+      "isLatest": true
+    }
+  }
+}

@@ -2,7 +2,6 @@
   "server": {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
     "name": "com.atlassian/atlassian-mcp-server",
-    "displayName": "JIRA MCP",
     "description": "Atlassian Rovo MCP Server v1.1.1 - Connect to Jira, Confluence, and Compass data via OAuth 2.1",
     "repository": {
       "url": "https://github.com/atlassian/atlassian-mcp-server",
@@ -27,25 +26,6 @@
       "publishedAt": "2026-01-27T21:23:25Z",
       "updatedAt": "2026-02-06T11:13:04Z",
       "isLatest": true
-    },
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "github": {
-        "displayName": "Atlassian",
-        "homepageUrl": "https://www.atlassian.com/platform/remote-mcp-server",
-        "license": "Apache-2.0",
-        "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/168166?v=4",
-        "preferredImage": "https://avatars.githubusercontent.com/u/168166?v=4",
-        "primaryLanguage": "Python",
-        "primaryLanguageColor": "#3572A5",
-        "topics": [
-          "atlassian",
-          "jira",
-          "confluence",
-          "compass",
-          "mcp",
-          "mcp-server"
-        ]
-      }
     }
   }
 }
