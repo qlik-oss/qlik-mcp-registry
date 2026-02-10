@@ -129,7 +129,7 @@
               {
                 "type": "named",
                 "name": "--header",
-                "value": "x-read-only-mode: 0"
+                "value": "x-read-only-mode: 1"
               }
             ]
           }
