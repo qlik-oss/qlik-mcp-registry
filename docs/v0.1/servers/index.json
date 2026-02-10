@@ -27,7 +27,6 @@
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
         "name": "io.launchdarkly/launchdarkly-mcp-server",
-        "displayName": "LaunchDarkly MCP",
         "description": "LaunchDarkly MCP Server v1.0.0 - Interact with LaunchDarkly feature flags",
         "repository": {
           "url": "https://github.com/launchdarkly/mcp-server",
@@ -67,23 +66,6 @@
           "publishedAt": "2026-02-03T00:00:00.000000Z",
           "updatedAt": "2026-02-03T00:00:00.000000Z",
           "isLatest": true
-        },
-        "io.modelcontextprotocol.registry/publisher-provided": {
-          "github": {
-            "displayName": "LaunchDarkly",
-            "homepageUrl": "https://launchdarkly.com",
-            "license": "Apache-2.0",
-            "ownerAvatarUrl": "https://images.prismic.io/launchdarkly-marketingsite/1b2e7e44-95c6-43e4-b952-addf093f9c93_launchdarkly-logos.png?auto=compress,format",
-            "preferredImage": "https://images.prismic.io/launchdarkly-marketingsite/1b2e7e44-95c6-43e4-b952-addf093f9c93_launchdarkly-logos.png?auto=compress,format",
-            "primaryLanguage": "TypeScript",
-            "primaryLanguageColor": "#3178c6",
-            "topics": [
-              "launchdarkly",
-              "feature-flags",
-              "mcp",
-              "mcp-server"
-            ]
-          }
         }
       }
     },
@@ -91,7 +73,6 @@
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
         "name": "io.grafana/grafana",
-        "displayName": "Grafana",
         "description": "Grafana MCP Server v0.9.0 - Access Grafana dashboards, datasources, alerting, OnCall, and the surrounding ecosystem via Model Context Protocol",
         "repository": {
           "url": "https://github.com/grafana/mcp-grafana",
@@ -112,24 +93,6 @@
           "publishedAt": "2026-02-05T00:00:00.000000Z",
           "updatedAt": "2026-02-05T00:00:00.000000Z",
           "isLatest": true
-        },
-        "io.modelcontextprotocol.registry/publisher-provided": {
-          "github": {
-            "displayName": "Grafana MCP",
-            "homepageUrl": "https://grafana.com",
-            "license": "AGPL-3.0",
-            "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
-            "preferredImage": "https://avatars.githubusercontent.com/u/7195757?v=4",
-            "primaryLanguage": "Python",
-            "primaryLanguageColor": "#3572A5",
-            "topics": [
-              "grafana",
-              "mcp",
-              "mcp-server",
-              "observability",
-              "monitoring"
-            ]
-          }
         }
       }
     },
@@ -137,7 +100,6 @@
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
         "name": "io.port/Port",
-        "displayName": "Port",
         "description": "Port.io mcp server",
         "repository": {
           "url": "https://github.com/port-labs/remote-mcp-server",
@@ -162,24 +124,6 @@
           "publishedAt": "2026-01-12T08:41:09Z",
           "updatedAt": "2026-02-05T12:13:19Z",
           "isLatest": true
-        },
-        "io.modelcontextprotocol.registry/publisher-provided": {
-          "github": {
-            "displayName": "Port.io MCP",
-            "homepageUrl": "https://www.port.io",
-            "license": "MIT",
-            "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/97434394?v=4",
-            "preferredImage": "https://avatars.githubusercontent.com/u/97434394?v=4",
-            "primaryLanguage": "TypeScript",
-            "primaryLanguageColor": "#3178c6",
-            "topics": [
-              "port",
-              "software-catalog",
-              "mcp",
-              "mcp-server",
-              "internal-developer-portal"
-            ]
-          }
         }
       }
     },
@@ -187,7 +131,6 @@
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
         "name": "com.atlassian/atlassian-mcp-server",
-        "displayName": "JIRA MCP",
         "description": "Atlassian Rovo MCP Server v1.1.1 - Connect to Jira, Confluence, and Compass data via OAuth 2.1",
         "repository": {
           "url": "https://github.com/atlassian/atlassian-mcp-server",
@@ -212,25 +155,6 @@
           "publishedAt": "2026-01-27T21:23:25Z",
           "updatedAt": "2026-02-06T11:13:04Z",
           "isLatest": true
-        },
-        "io.modelcontextprotocol.registry/publisher-provided": {
-          "github": {
-            "displayName": "Atlassian",
-            "homepageUrl": "https://www.atlassian.com/platform/remote-mcp-server",
-            "license": "Apache-2.0",
-            "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/168166?v=4",
-            "preferredImage": "https://avatars.githubusercontent.com/u/168166?v=4",
-            "primaryLanguage": "Python",
-            "primaryLanguageColor": "#3572A5",
-            "topics": [
-              "atlassian",
-              "jira",
-              "confluence",
-              "compass",
-              "mcp",
-              "mcp-server"
-            ]
-          }
         }
       }
     },
@@ -238,7 +162,6 @@
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
         "name": "io.qlik.internal/qlik-rd-knowledge-base",
-        "displayName": "Qlik Knowledge Base MCP",
         "description": "Qlik R&D Knowledge Base MCP Server v0.1.0 - Access Internal Dev Portal content in AI-assisted use cases",
         "repository": {
           "url": "https://github.com/qlik-trial/mcp-server-knowledge-base",
@@ -266,7 +189,6 @@
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
         "name": "io.qlik.internal/qlik-design-system",
-        "displayName": "Qlik Design System MCP",
         "description": "Qlik Design System MCP Server v0.1.0 - Query Sprout design tokens, guidelines, and components for design-consistent code generation.",
         "version": "0.1.0",
         "remotes": [
@@ -293,9 +215,8 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-        "name": "com.qlik/qlik-cloud-mcp",
-        "displayName": "Qlik Cloud MCP (QlikInternal US)",
-        "description": "Qlik Cloud MCP Server for QlikInternal US tenant - Access analytics apps, data products, datasets, and lineage",
+        "name": "com.qlik/qlik-cloud-mcp-qlikinternal-us",
+        "description": "QlikInternal US tenant",
         "version": "0.1.0-preview",
         "remotes": [
           {
@@ -306,16 +227,39 @@
       },
       "_meta": {
         "io.modelcontextprotocol.registry/official": {
-          "slug": "qlik-cloud-mcp",
+          "slug": "qlik-cloud-mcp-qlikinternal-us",
           "status": "preview",
           "publishedAt": "2026-02-09T00:00:00.000000Z",
           "updatedAt": "2026-02-09T00:00:00.000000Z",
           "isLatest": true
         }
       }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+        "name": "com.qlik/qlik-cloud-mcp-stage",
+        "description": "Qlik Cloud MCP Server for Stage tenant",
+        "version": "0.1.0-preview",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://mcp.us.qlik-stage.com/api/ai/mcp"
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "slug": "qlik-cloud-mcp-stage",
+          "status": "preview",
+          "publishedAt": "2026-02-10T00:00:00.000000Z",
+          "updatedAt": "2026-02-10T00:00:00.000000Z",
+          "isLatest": true
+        }
+      }
     }
   ],
   "metadata": {
-    "count": 8
+    "count": 9
   }
 }
