@@ -12,7 +12,6 @@
       {
         "registryType": "npm",
         "identifier": "mcp-remote",
-        "version": "1.0.2",
         "runtimeHint": "npx",
         "transport": {
           "type": "stdio"
